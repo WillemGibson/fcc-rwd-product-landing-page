@@ -1,0 +1,54 @@
+* {
+    background-color: #ff7f50;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  h2, p {
+    font-family: 'Raleway', sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: linen;
+  }
+  #hero {
+    grid-column: 1 / -1;
+    position: relative;
+    text-align: center;
+  }
+  header {
+  justify-content: flex-end;
+  position: positioned;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+    padding: 1em;
+  }
+  
+  nav {
+    position: fixed;
+  top: 0px;
+  }
+  @media only screen and (max-width: 720px) {
+    .image-wrapper {
+      grid-template-columns: 1fr;
+    }
+    i {
+      color: yellow;
+    }
+    #submit {
+      background-color: yellow;
+    }
+    input {
+      font-weight: bold;
+      font-size: 15;
+    }
+    .btn {
+      color: blue;
+      padding-top: 0; 
+    }
+  }
